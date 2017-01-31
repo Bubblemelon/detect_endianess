@@ -1,7 +1,7 @@
-# detect_endianess function details:
+# detect_endianess function:
 A function that determines whether a machine is big or little endian written in C. 
 
-# Notes:
+## Notes:
 
 Uses an unsigned integer for bit manaipulation.
 
@@ -11,13 +11,13 @@ Format to store multibyte date types:
 
 2. Little endian == Host byte order
 
-#Interesting read:
+## Interesting read:
 
 Writing endian-independent code in C:
 
 https://www.ibm.com/developerworks/aix/library/au-endianc/
 
-#Reference
+## Reference
 
 Part of this summary of notes were adapted from: 
 
