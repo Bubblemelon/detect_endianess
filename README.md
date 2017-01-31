@@ -23,6 +23,8 @@ The least significant byte (LSB) is stored first at the smallest address byte an
 char example[6] = {'H', 'e', 'l', 'l', 'o', '\0'}; // a six byte string
 
 
+```
+
 Big endian format:
 ------------------
 Byte address  | n    | n + 1 | n + 2 | n + 3 | n + 4 | n + 5 |
@@ -40,6 +42,7 @@ Byte content  | 0x00 | 0x6F  | 0x6C  | 0x6C  | 0x65  | 0x48  |        <--- Based
 
 			  | LSB  |                               | MSB   |
 
+```
 
 ## Interesting read:
 
