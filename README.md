@@ -34,7 +34,7 @@ Byte content  | 0x48 | 0x65  | 0x6C  | 0x6C  | 0x6F  | 0x00  |        <--- Based
 			  | MSB  |                               | LSB   |
 
 
-Big endian format:
+Little endian format:
 ------------------
 Byte address  | n    | n + 1 | n + 2 | n + 3 | n + 4 | n + 5 |
               ++++++++++++++++++++++++++++++++++++++++++++++
