@@ -31,7 +31,7 @@ Byte address  | n    | n + 1 | n + 2 | n + 3 | n + 4 | n + 5 |
               ++++++++++++++++++++++++++++++++++++++++++++++
 Byte content  | 0x48 | 0x65  | 0x6C  | 0x6C  | 0x6F  | 0x00  |        <--- Based on the ASCII table
 
-			  | MSB  |                               | LSB   |
+              | MSB  |                               | LSB   |
 
 
 Little endian format:
@@ -40,7 +40,7 @@ Byte address  | n    | n + 1 | n + 2 | n + 3 | n + 4 | n + 5 |
               ++++++++++++++++++++++++++++++++++++++++++++++
 Byte content  | 0x00 | 0x6F  | 0x6C  | 0x6C  | 0x65  | 0x48  |        <--- Based on the ASCII table
 
-			  | LSB  |                               | MSB   |
+	      | LSB  |                               | MSB   |
 
 ```
 
