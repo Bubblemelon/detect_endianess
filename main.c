@@ -13,15 +13,15 @@ int main()
     // pointer c of type "char"
     // address of x is assigned to c  ( casting x to char pointer )
 
-    printf( "*c is: 0x%x\n" , *c  ); // %x == Unsigned hexadecimal integer
+    printf( "*c is: %0x\n" , *c  ); // %x == Unsigned hexadecimal integer
 
     if( *c == 0x0 )
     {
-        printf( "Computer architecture uses Big endian \n" );
+        printf( "Computer architecture uses little endian \n" );
     }
     else
     {
-        printf( "Computer architecture uses Little endian \n" );
+        printf( "Computer architecture uses big endian \n" );
     }
 
     return 0; //program completed
